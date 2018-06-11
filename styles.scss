@@ -1,12 +1,5 @@
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
-$clr1:#e8e8e8;
-$fnt1:Roboto;
 
-
-body {
-  background:$clr1;
-  font-family: $fnt1,sans-serif;
-}
 @font-face {
   font-family: 'Material Icons';
   font-style: normal;
@@ -28,23 +21,4 @@ body {
   direction: ltr;
   -moz-font-feature-settings: 'liga';
   -moz-osx-font-smoothing: grayscale;
-}
-.spacer1 {
-  -webkit-box-flex: 1;
-  -ms-flex: 1 1 auto;
-  flex: 1 1 auto;
-}
-ul[title]::before {
-  content: attr(title) ;
-  display: block ;
-  font-weight: bold ;
-  padding: 4px ;
-  text-decoration: underline ;
-}
-.style13 {
-  width: 80% ;
-  border: 1px solid darkolivegreen ;
-  border-radius: 0.5em ;
-  margin: 1% 1% 4% 1% ;
-  padding : 3% 3% 3% 3% ;
 }
